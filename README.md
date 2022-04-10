@@ -1,1 +1,1 @@
-# Paradox-Comsoc-2022
+Official bot for IEEEComSoc VIT Chennai dicord server.
