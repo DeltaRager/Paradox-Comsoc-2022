@@ -7,7 +7,7 @@ module.exports = {
         if(message.channel.id === process.env.listeningChannelId)
         {
             new schema({
-                Author: message.Author.username,
+                Author: message.author.username,
                 Message: message.content,
                 Timestamp: message.createdAt
             }).save()
